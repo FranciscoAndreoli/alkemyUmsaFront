@@ -8,7 +8,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "alkemyUmsaFront", "alkemyUm
 		{74AB32C3-1807-420B-9752-5D8CEC1A9874} = {74AB32C3-1807-420B-9752-5D8CEC1A9874}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{74AB32C3-1807-420B-9752-5D8CEC1A9874}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Data", "Data\Data.csproj", "{74AB32C3-1807-420B-9752-5D8CEC1A9874}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

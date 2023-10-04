@@ -1,7 +1,13 @@
-﻿@{
+﻿@model alkemyUmsaFront.ViewModel.HomeViewModel
+
+@{
     ViewData["Title"] = "Home Page";
 }
 
+@Html.HiddenFor(x => x.Token);
+
 <div class="text-center">
-    <h1 class="display-4">Bienvenidos !</h1>
+    <h1 class="display-4">Bienvenido @Html.DisplayFor(x => x.Nombre)</h1>
 </div>
+
+<script src="~/js/Home/Home.js"> </script>
